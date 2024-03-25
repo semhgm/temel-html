@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table border="1" style="width: 30em;">
+        <tr>
+            <th>ürün</th>
+            <th>fiyat</th>
+            <th>stok</th>
+        </tr>
+        <tr>
+            <td rowspan="2">simit</td>
+            <td>12 tl</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            
+            <td>12 tl </td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td  >çay</td>
+            <td>17tl</td>
+            <td>200</td>
+            
+
+        </tr>
+    </table>
+    <br><br>
+    <hr>
+    <br><br>
+    <table border="1" style="width: 30em;">
+        <tr>
+            <th>özellik/adet</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <th>ürün</th>
+            <td>adacayı</td>
+            <td>ıhlamur</td>
+            <td>nane limon</td>
+            <td>kahve</td>
+        </tr>
+        <tr>
+            <th>kalori</th>
+            <td>1,5</td>
+            <td>16</td>
+            <td>5</td>
+            <td>7</td>
+        </tr>
+    </table>
+    <br><br><br><br>
+    <form action="adem.php">
+
+        <table   >
+            <h2>kişisel bilgiler ve hesap bilgileri</h2>
+
+        <tr>
+            <th> <label for="name">ad soyad:</label></th>
+            <td><input type="text" id="name"></td>
+        </tr>
+        <tr>
+            <th> <label for="mail">e posta:</label></th>
+            <td><input type"mail"></td>
+        </tr>
+       
+        
+        <tr>
+            <th><label for="password">şifre:</label></th>
+            <td><input type="password" id="password"></td>
+            
+        </tr>
+        <tr>
+            <th><label for="choose">şehir</label></th>
+            <td id="choose"><select name="şehir" id="">
+                <option value="ordu">ordu</option>
+                <option value="samsun">samsun</option>
+                <option value="giresun">giresun</option>
+                <option value="zonguldak">zonguldak</option>
+                <option value="trabzon">trabzon</option>
+            </select></td>
+        </tr>
+        <tr>
+            <th><label for="cinsiyet">cinsiyet</label></th>
+            <td><input type="radio" name="cinsiyet" id="cinsiyet">erkek
+                <input type="radio" name="cinsiyet" id="cinsiyet">kadın
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td ><label for="check">sözleşmeyi okudun onaylıyorum</label></td>
+            <td><input type="checkbox" id="check"></td>
+        </tr>
+         <td> <input type="submit"></td>
+
+        </table>
+    </form>
+</body>
+</html>
